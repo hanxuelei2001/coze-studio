@@ -16,7 +16,7 @@ images=(
     "opencoze/opencoze:latest"
     "apache/rocketmq:5.3.2"
     "bitnami/elasticsearch:8.18.0"
-    "minio/minio:RELEASE.2025-06-13T11-33-47Z-cpuv1"
+    "minio/minio:RELEASE.2025-04-22T22-12-26Z"
     "minio/mc:RELEASE.2025-05-21T01-59-54Z-cpuv1"
     "arigaio/atlas:0.35.0-community-alpine"
     "bitnami/etcd:3.5"

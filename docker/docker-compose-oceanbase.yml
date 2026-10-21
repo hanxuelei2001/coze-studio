@@ -156,7 +156,7 @@ services:
       "
 
   minio:
-    image: minio/minio:RELEASE.2025-06-13T11-33-47Z-cpuv1
+    image: minio/minio:RELEASE.2025-04-22T22-12-26Z
     container_name: coze-minio
     user: root
     privileged: true
@@ -365,7 +365,7 @@ services:
     container_name: coze-web
     restart: always
     ports:
-      - "${WEB_LISTEN_ADDR:-8888}:80"
+      - "${WEB_LISTEN_ADDR:-8388}:80"
       # - "443:443"  # SSL port (uncomment if using SSL)
     volumes:
       - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro  # Main nginx config
